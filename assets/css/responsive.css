@@ -1,0 +1,233 @@
+
+
+@media only screen and (max-width: 1600px) {
+    .container-fluid{
+        max-width: 90%;
+    }   
+}
+
+@media only screen and (max-width: 1400px) {
+    .banner h1 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .banner {
+        min-height: 800px;
+    }
+    .bnr-content{
+        width: 100%;
+    }
+    .we-provide .wedo-card h6 {
+        font-size: 20px;
+    }
+    .we-provide .wedo-card {
+        padding: 40px 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .bnr-content{
+        width: 100%;
+    }
+    .banner .mob-none{
+        display: none;
+    }
+    .banner{
+        text-align: center;
+        padding: 40px 0;
+    }
+    .banner h1 {
+        font-size: 50px;
+    }
+    .banner-btns{
+        justify-content: center;
+    }
+    .banner .row{
+        flex-direction: column-reverse;
+    }
+    .banner img {
+        width: 40%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bnr-content{
+        width: 100%;
+    }
+    .banner .mob-none{
+        display: none;
+    }
+    header .logo img {
+        height: 40px;
+        width: auto;
+    }
+    header nav li a {
+        font-size: 14px;
+    }
+    header nav li {
+        margin-left: 20px;
+    }
+    .primary-btn {
+        padding: 0px 20px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .banner h1 {
+        font-size: 35px;
+    }
+    .banner p {
+        font-size: 18px;
+    }
+    section{
+        padding: 40px 0;
+    }
+    .whatwedo img{
+        display: none;
+    }
+    footer .newsletter-section{
+        margin-top: 40px;
+    }
+    footer {
+        padding: 60px 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .bnr-content{
+        width: 100%;
+    }
+    .banner .mob-none{
+        display: none;
+    }
+    footer .newsletter-section{
+        margin-top: 40px;
+    }
+    footer {
+        padding: 60px 0;
+    }
+    header .logo img {
+        height: 40px;
+        /* width: 40px;
+        object-fit: cover;
+        object-position: left; */
+    }
+    .primary-btn {
+        padding: 0px 15px;
+    }
+    header nav li:first-child{
+        margin: 0;
+    }
+    .banner .bnr-content {
+        padding-bottom: 100px;
+    }
+    .we-provide{
+        padding-top: 0;
+    }
+    .testimonials {
+        padding: 20px 0 0 0;
+    }
+    .testimonials-slider .slick-list {
+        overflow: inherit;
+        padding: 0 !important;
+    }
+    .banner {
+        min-height: 700px;
+    }
+    .testimonials-slider .slick-prev {
+        width: 50px;
+        height: 50px;
+        left: 10px;
+    }
+    .testimonials-slider .slick-next {
+        width: 50px;
+        height: 50px;
+        right: 10px;
+    }
+    .testimonials-slider {
+        padding: 20px 0;
+    }
+    .f-logo-section{
+        margin-bottom: 40px;
+    }
+    .copy{
+        text-align: center;
+    }
+    .copy p{
+        margin-bottom: 20px;
+    }
+    .copy .d-flex{
+    justify-content: center !important;
+    }
+    .banner img {
+        width: 40%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    header nav{
+        /* display: none; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color1);
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 999999;
+        top: 0;
+        left: 0;
+        transform: scale(1.5);
+        opacity: 0;
+        transition: all .3s ease;
+        pointer-events: none;
+    }
+    header nav ul.d-flex{
+        display: block !important;
+    }
+    header nav ul.d-flex li{
+        margin: 0;
+        text-align: center;
+    }
+    header nav ul.d-flex li a{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 300;
+        height: 50px;
+        line-height: 50px;
+    }
+    header .open-menu{
+        display: block !important;
+        width: 40px;
+        height: 40px;
+        background: var(--color1);
+        float: right;
+        border-radius: 10px;
+        position: relative;
+        z-index: 99999999;
+    }
+    header .open-menu line{
+        stroke: #fff;
+    }
+    header nav.open{
+        transform: scale(1);
+        opacity: 1;
+        transition: all .3s ease;
+        pointer-events: initial;
+    }
+    header nav.open + button{
+        display: none !important;
+    }
+    header nav.open .close-menu{
+        display: block;
+        position: absolute;
+        top: 22px;
+        right: 36px;
+    }
+    header nav.open .close-menu line{
+        stroke: #fff;
+    }
+}
